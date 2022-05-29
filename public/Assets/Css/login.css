@@ -1,0 +1,9 @@
+.page-login {
+    padding: 50px 5%;
+    width: 100%;
+    height: calc(100vh - 110px);
+}
+
+.page-login > .container > .row .panel-title {
+    font-weight: 600;
+}

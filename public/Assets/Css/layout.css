@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button, input, select, textarea {
+    outline: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../Image/bg-header.jpg') no-repeat center;
+    background-size: cover;
+    padding: 0 5%;
+}
+
+header > .item > a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header > .item > a:hover {
+    background: rgba(255, 255, 255, 0.308);
+
+}
+
+footer {
+    width: 100%;
+    padding: 20px 5%;
+    background: url('../Image/bg-header.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    bottom: 0;
+    text-align: center;
+    height: 60px;
+}
