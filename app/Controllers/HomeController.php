@@ -190,4 +190,19 @@ class HomeController extends BaseController
         }
         return $listShift;
     }
+
+    // check date past
+    function checkDatePast($date)
+    {
+        $date = trim($date);
+        $date = substr($date, 8, 2) . '/' . substr($date, 5, 2) . '/' . substr($date, 0, 4);
+        $date = strtotime($date);
+        $now = strtotime(date('d/m/Y'));
+        if ($date < $now) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

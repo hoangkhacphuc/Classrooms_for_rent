@@ -66,4 +66,85 @@ class RoomController extends HomeController
         $this->roomModel->deleteRoomRent($id);
     }
 
+    // Controller thuê phòng
+    public function rentRoom()
+    {
+        if (!$this->checkLogin()) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Bạn chưa đăng nhập'
+            ));
+            return;
+        }
+        $room_id = $this->request->getPost('room_id');
+        $date_hire = $this->request->getPost('date_hire');
+        $rent_shift = $this->request->getPost('rent_shift');
+        // check room_id empty
+        if (empty($room_id)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'ID phòng không được để trống'
+            ));
+            return;
+        }
+        // check room_id is integer
+        if (!is_numeric($room_id)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'ID phòng phải là số'
+            ));
+            return;
+        }
+        // check date_hire empty
+        if (empty($date_hire)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Ngày thuê không được để trống'
+            ));
+            return;
+        }
+        // check date_hire is date
+        if (!$this->checkDate($date_hire)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Ngày thuê không đúng định dạng'
+            ));
+            return;
+        }
+        // check date_hire is past
+        if ($this->checkDatePast($date_hire)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Ngày thuê không được nhỏ hơn ngày hiện tại'
+            ));
+            return;
+        }
+        // check rent_shift empty
+        if (empty($rent_shift)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Ca thuê không được để trống'
+            ));
+            return;
+        }
+        // check rent_shift is array integer
+        if (!is_array($rent_shift)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Ca thuê phải là mảng số'
+            ));
+            return;
+        }
+        foreach ($rent_shift as $shift) {
+            if (!is_numeric($shift)) {
+                echo json_encode(array(
+                    'status' => 'error',
+                    'message' => 'Ca thuê phải là mảng số'
+                ));
+                return;
+            }
+        }
+        $this->roomModel->rentRoom($room_id, $date_hire, $rent_shift);
+    }
+
 }

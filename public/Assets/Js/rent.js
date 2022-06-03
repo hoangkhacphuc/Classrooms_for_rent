@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    let change_choose_room = true;
+    $('#room_rent').change(function (e) { 
+        e.preventDefault();
+        change_choose_room = true;
+    });
+
+    $('#date_rent').change(function (e) { 
+        e.preventDefault();
+        change_choose_room = true;
+    });
+
+
   $("#btn-search").click(function () {
     // get the value of the input room_rent, date_rent
     var room_rent = $("#room_rent").val();
@@ -11,6 +23,7 @@ $(document).ready(function () {
       return;
     }
 
+    change_choose_room = false;
     // post the value to ./api/getListShiftRent
     $.post(
       "./api/getListShiftRent",
@@ -63,7 +76,8 @@ $(document).ready(function () {
   $("#t-room_rent>tr>td>button.btn-danger").click(function () {
     let id = $(this).attr("data-id");
     // post the value to ./api/deleteRoomRent
-    $.post("./api/deleteRoomRent",
+    $.post(
+      "./api/deleteRoomRent",
       {
         id: id,
       },
@@ -77,5 +91,49 @@ $(document).ready(function () {
         }
       }
     );
+  });
+
+
+  $('#btn-rent').click(function (e) { 
+      e.preventDefault();
+      if (change_choose_room == true) {
+        swal("Cảnh báo!", "Vui lòng chọn phòng, ngày thuê và tìm ca lại", "error");
+        return;
+      }
+        let list_select = [];
+        for (let i = 0; i < $("#tr-list-btn>td").length; i++) {
+            if ($("#tr-list-btn>td").eq(i).children("button").attr("data-select") == "1") {
+                list_select.push($("#tr-list-btn>td").eq(i).children("button").attr("data-id"));
+            }
+        }
+        if (list_select.length == 0) {
+            swal("Cảnh báo!", "Vui lòng chọn ca thuê", "error");
+            return;
+        }
+        let room_id = $('#room_rent').val();
+        let date_rent = $('#date_rent').val();
+        if (room_rent == "" || date_rent == "") {
+            // if the value is empty, show the error message
+            // swal will show the error message
+            swal("Cảnh báo!", "Vui lòng nhập đầy đủ thông tin", "error");
+            return;
+        }
+
+        // post the value to ./api/rentRoom
+        $.post("./api/rentRoom", {
+            room_id: room_id,
+            date_hire: date_rent,
+            rent_shift: list_select
+        }, function (data) {
+            data = JSON.parse(data);
+            if (data.status == "success") {
+                swal("Thông báo!", data.message, "success");
+                setTimeout(function () {
+                    location.reload();
+                }, 1000);
+            } else {
+                swal("Cảnh báo!", data.message, "error");
+            }
+        });
   });
 });

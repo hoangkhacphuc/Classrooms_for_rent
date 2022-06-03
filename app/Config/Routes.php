@@ -42,6 +42,8 @@ $routes->group('api', function($routes) {
     $routes->post('updateProfile', 'UserController::updateProfile');
     $routes->post('getListShiftRent', 'ShiftController::getListShiftRent');
     $routes->post('deleteRoomRent', 'RoomController::deleteRoomRent');
+    $routes->post('rentRoom', 'RoomController::rentRoom');
+
 });
 
 
