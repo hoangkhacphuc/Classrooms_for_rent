@@ -23,6 +23,53 @@ class UserModel extends HomeModel
         echo json_encode(array('status' => 'error', 'message' => 'Tài khoản hoặc mật khẩu không đúng'));
     }
 
+    // Đăng ký
+    public function register($username, $password, $name, $phone, $birthday, $gender, $role)
+    {
+        $query = $this->db->table('customers')
+                            ->where(array('user' => $username))
+                            ->get()
+                            ->getResultArray();
+        if (count($query) > 0) {
+            echo json_encode(array('status' => 'error', 'message' => 'Tài khoản đã tồn tại'));
+            return;
+        }
+        $query = $this->db->table('customers')
+                            ->where(array('phone_number' => $phone))
+                            ->get()
+                            ->getResultArray();
+        if (count($query) > 0) {
+            echo json_encode(array('status' => 'error', 'message' => 'Số điện thoại đã tồn tại'));
+            return;
+        }
+        // check role id
+        $query = $this->db->table('roles')
+                            ->where(array('id' => $role))
+                            ->get()
+                            ->getResultArray();
+        if (count($query) == 0) {
+            echo json_encode(array('status' => 'error', 'message' => 'Vui lòng chọn quyền'));
+            return;
+        }
+        // Thêm tài khoản và trả về id
+        
+        $query = $this->db->table('customers')
+                            ->insert(array(
+                                'user' => $username,
+                                'pass' => $password,
+                                'phone_number' => $phone,
+                                'name' => $name,
+                                'birth' => $birthday,
+                                'gender' => $gender,
+                                'role_id' => $role
+                            ));
+        if ($query) {
+            echo json_encode(array('status' => 'success', 'message' => 'Đăng ký thành công', 'data' => array('id' => $this->db->insertID())));
+            return;
+        }
+        echo json_encode(array('status' => 'error', 'message' => 'Đăng ký thất bại'));
+    }
+
     // Đăng xuất
     public function logout()
     {
@@ -93,4 +140,31 @@ class UserModel extends HomeModel
         return $query[0]['count'];
     }
     
+    // Lấy danh sách thành viên trừ admin
+    public function getListUser()
+    {
+        $query = $this->db->table('customers')
+                            ->select('*')
+                            ->where(array('customers.role_id !=' => 1))
+                            ->get()
+                            ->getResultArray();
+        return $query;
+    }
+
+    // Xóa tài khoản
+    public function deleteUser($id)
+    {
+        $query = $this->db->table('managements')
+                            ->where(array('customer_id' => $id))
+                            ->delete();
+                            
+        $query = $this->db->table('customers')
+                            ->where(array('id' => $id))
+                            ->delete();
+        if ($query) {
+            echo json_encode(array('status' => 'success', 'message' => 'Xóa thành công'));
+            return;
+        }
+        echo json_encode(array('status' => 'error', 'message' => 'Xóa thất bại'));
+    }
 }

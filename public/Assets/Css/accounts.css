@@ -1,0 +1,27 @@
+.form-header-rooms-manager {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.form-header-rooms-manager > .btnAdd {
+    display: flex;
+    align-items: flex-end;
+}
+
+.list-account-header-table {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-y: auto;
+    max-height: calc(100vh - 200px);
+}
+
+.accounts-manager-page {
+    margin-bottom: 40px;
+}
+
+footer {
+    position: absolute;
+}

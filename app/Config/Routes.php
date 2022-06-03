@@ -40,10 +40,13 @@ $routes->get('pay', 'HomeController::Pay_Page');
 $routes->group('admin', function($routes) {
     $routes->get('/', 'UserController::Statistical_Page');
     $routes->get('rooms', 'RoomController::Rooms_Manager_Page');
+    $routes->get('accounts', 'UserController::Accounts_Manager_Page');
     $routes->group('api', function($routes) {
         $routes->post('deleteRoom', 'RoomController::deleteRoom');
         $routes->post('updateRoom', 'RoomController::updateRoom');
         $routes->post('addRoom', 'RoomController::addRoom');
+        $routes->post('deleteUser', 'UserController::deleteUser');
+        $routes->post('register', 'UserController::register');
     });    
 });
 

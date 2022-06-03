@@ -52,7 +52,7 @@
                 <a href="./pay">Thanh Toán</a>
             <?php else: ?>
                 <a href="./admin">Thống kê</a>
-                <a href="./">QL Tài khoản</a>
+                <a href="./admin/accounts">QL Tài khoản</a>
                 <a href="./admin/rooms">QL Phòng</a>
             <?php endif; ?>
         </div>

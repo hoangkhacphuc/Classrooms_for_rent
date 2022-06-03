@@ -181,6 +181,14 @@ class HomeController extends BaseController
         return $datetime;
     }
 
+    // Convert datetime to format HH:ii:ss dd/mm/yyyy
+    public function convertDateTime2($datetime)
+    {
+        $datetime = trim($datetime);
+        $datetime = substr($datetime, 11, 2) . ':' . substr($datetime, 14, 2) . ':' . substr($datetime, 17, 2) . ' - ' . substr($datetime, 8, 2) . '/' . substr($datetime, 5, 2) . '/' . substr($datetime, 0, 4);
+        return $datetime;
+    }
+
     // Convert datetime to format hh:mm 
     public function convertTime($datetime)
     {
