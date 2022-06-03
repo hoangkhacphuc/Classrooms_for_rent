@@ -49,7 +49,7 @@
         <div class="item">
             <a href="./">Trang Chủ</a>
             <a href="./rent">Thuê Phòng</a>
-            <a href="#">Thanh Toán</a>
+            <a href="./pay">Thanh Toán</a>
         </div>
         <div class="item">
             <?php if(!$isLogin): ?>

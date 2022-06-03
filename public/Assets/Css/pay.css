@@ -1,0 +1,52 @@
+.page-pay {
+    width: 100%;
+    display: flex;
+    padding: 30px 7%;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.page-pay > .detail-pay {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.page-pay > .detail-pay > .title {
+    font-size: 16px;
+    padding:  10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-pay > .detail-pay > .content {
+    padding: 10px 15px;
+}
+
+.tr-bank {
+    width: 100%;
+}
+
+.tr-bank > td {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tr-bank > td  > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tr-bank > td > p > span {
+    color: red;
+    font-weight: 600;
+}
+
+.detail > ul {
+    padding-left: 15px;
+}
+
+.detail > ul > li > span {
+    font-size: 16px;
+    color: #333;
+}

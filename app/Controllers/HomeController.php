@@ -65,6 +65,24 @@ class HomeController extends BaseController
         return view('Client/login', $data);
     }
 
+    public function Pay_Page()
+    {
+        $isLogin = $this->checkLogin();
+        $header = view('Layouts/_header', array(
+            'isLogin' => $isLogin,
+            'Page_Title' => 'Thanh toán',
+            'Page_Resource' => array(
+                '<link rel="stylesheet" href="./Assets/CSS/pay.css">',
+            )
+        ));
+        $footer = view('Layouts/_footer');
+        $data = array(
+            'header' => $header,
+            'footer' => $footer
+        );
+        return view('Client/pay', $data);
+    }
+
 
 
 // --------------------- FUNCTION CHECK ---------------------
