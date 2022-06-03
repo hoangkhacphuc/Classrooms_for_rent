@@ -40,15 +40,9 @@
         </div>
     </div>
     <div class="detail-pay">
-        <div class="title">Lưu ý khi nạp tiền</div>
+        <div class="title">Lưu ý khi thanh toán</div>
         <div class="content detail">
             <ul>
-                <li>
-                    <span>Quý khách vui lòng làm đúng theo hướng dẫn để Auto tự cộng tiền vào tài khoản tránh mất thời gian.</span>
-                </li>
-                <li>
-                    <span>Số tiền nạp tối thiểu mỗi lần giao dịch là 50.000 VNĐ.</span>
-                </li>
                 <li>
                     <span>Nội dung chuyển khoản phải viết dúng theo mẫu. Ví dụ tên tài khoản 'nguyenvana' thì nội dung chuyển tiền là 'naptien nguyenvana'.</span>
                 </li>
@@ -56,7 +50,7 @@
                     <span>Không hỗ trợ lấy lại tiền đối với khách hàng ghi đúng khuôn mẫu nội dung nhưng sai tên tài khoản.</span>
                 </li>
                 <li>
-                    <span>Thời gian tiền được cộng vào tài khoản từ 15-30p. Nếu quá thời gian vui lòng liên hệ Admin qua SĐT 0123123123.</span>
+                    <span>Sau khi chuyển tiền vui lòng liên hệ với Admin qua SĐT 0123123123.</span>
                 </li>
             </ul>
         </div>

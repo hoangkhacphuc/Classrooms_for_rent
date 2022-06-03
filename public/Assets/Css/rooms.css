@@ -1,0 +1,11 @@
+.form-header-rooms-manager {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.form-header-rooms-manager > .btnAdd {
+    display: flex;
+    align-items: flex-end;
+}

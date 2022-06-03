@@ -151,4 +151,216 @@ class RoomController extends HomeController
         $this->roomModel->rentRoom($room_id, $date_hire, $rent_shift);
     }
 
+    // Controller Rooms Manager
+    public function Rooms_Manager_Page()
+    {
+        $isLogin = $this->checkLogin();
+        if (!$isLogin) {
+            return redirect()->to(site_url('./login'));
+        }
+        $isAdmin = $this->userModel->isAdmin();
+        if (!$isAdmin) {
+            return redirect()->to(site_url('/'));
+        }
+        $header = view('Layouts/_header', array(
+            'isLogin' => $isLogin,
+            'isAdmin' => $isAdmin,
+            'Page_Title' => 'Quản lý phòng',
+            'listRoom' => $this->roomModel->getListRoom(),
+            'Page_Resource' => array(
+                '<link rel="stylesheet" href="./Assets/CSS/rooms.css">',
+                '<script src="./Assets/Js/rooms.js"></script>'
+            )
+        ));
+        $footer = view('Layouts/_footer');
+        $data = array(
+            'header' => $header,
+            'footer' => $footer,
+            'profile' => $this->userModel->getProfile()
+        );
+        return view('Admin/rooms', $data);
+    }
+
+    // Controller API xóa phòng
+    public function deleteRoom()
+    {
+        $isLogin = $this->checkLogin();
+        if (!$isLogin) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Bạn chưa đăng nhập'
+            ));
+            return;
+        }
+        $isAdmin = $this->userModel->isAdmin();
+        if (!$isAdmin) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Không có quyền truy cập'
+            ));
+            return;
+        }
+
+        $id = $this->request->getPost('id');
+        // check id empty
+        if (empty($id)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'ID không được để trống'
+            ));
+            return;
+        }
+        // check id is integer
+        if (!is_numeric($id)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'ID phải là số'
+            ));
+            return;
+        }
+        $this->roomModel->deleteRoom($id);
+    }
+
+    // Controller API cập nhật phòng
+    public function updateRoom()
+    {
+        $isLogin = $this->checkLogin();
+        if (!$isLogin) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Bạn chưa đăng nhập'
+            ));
+            return;
+        }
+        $isAdmin = $this->userModel->isAdmin();
+        if (!$isAdmin) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Không có quyền truy cập'
+            ));
+            return;
+        }
+        // Check input 
+        $id = $this->request->getPost('id');
+        $name = $this->request->getPost('name');
+        $size = $this->request->getPost('size');
+        $rentCost = $this->request->getPost('rentCost');
+
+        // check input empty
+        if (empty($id) || empty($name) || empty($size) || empty($rentCost)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Thông tin không được để trống'
+            ));
+            return;
+        }
+        // check id is integer
+        if (!is_numeric($id)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'ID phải là số'
+            ));
+            return;
+        }
+        // check size is integer
+        if (!is_numeric($size)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Số ghế phải là số'
+            ));
+            return;
+        }
+        // check rentCost is integer
+        if (!is_numeric($rentCost)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Giá thuê phải là số'
+            ));
+            return;
+        }
+        // Check size > 0
+        if ($size <= 0) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Số ghế phải lớn hơn 0'
+            ));
+            return;
+        }
+        // Check rentCost > 0
+        if ($rentCost <= 0) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Giá thuê phải lớn hơn 0'
+            ));
+            return;
+        }
+        $this->roomModel->updateRoom($id, $name, $size, $rentCost);
+    }
+
+    // Controller API thêm phòng
+    public function addRoom()
+    {
+        $isLogin = $this->checkLogin();
+        if (!$isLogin) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Bạn chưa đăng nhập'
+            ));
+            return;
+        }
+        $isAdmin = $this->userModel->isAdmin();
+        if (!$isAdmin) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Không có quyền truy cập'
+            ));
+            return;
+        }
+        // Check input 
+        $name = $this->request->getPost('name');
+        $size = $this->request->getPost('size');
+        $rentCost = $this->request->getPost('rentCost');
+
+        // check input empty
+        if (empty($name) || empty($size) || empty($rentCost)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Thông tin không được để trống'
+            ));
+            return;
+        }
+        // check size is integer
+        if (!is_numeric($size)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Số ghế phải là số'
+            ));
+            return;
+        }
+        // check rentCost is integer
+        if (!is_numeric($rentCost)) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Giá thuê phải là số'
+            ));
+            return;
+        }
+        // Check size > 0
+        if ($size <= 0) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Số ghế phải lớn hơn 0'
+            ));
+            return;
+        }
+        // Check rentCost > 0
+        if ($rentCost <= 0) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Giá thuê phải lớn hơn 0'
+            ));
+            return;
+        }
+        $this->roomModel->addRoom($name, $size, $rentCost);
+    }
 }

@@ -7,7 +7,6 @@ class RoomModel extends HomeModel
     {
         parent::__construct();
     }
-    
 
     // Lấy danh sách phòng
     public function getListRoom()
@@ -173,5 +172,102 @@ class RoomModel extends HomeModel
             ));
         }
         return $new;
+    }
+
+    // Xóa phòng
+    public function deleteRoom($id)
+    {
+        // Check room id
+        $query = $this->db->table('rooms')
+            ->where('id', $id)
+            ->get()
+            ->getResultArray();
+        if (count($query) == 0) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Phòng không tồn tại'
+            ));
+            return;
+        }
+
+        $query = $this->db->table('managements')
+            ->where('room_id', $id)
+            ->delete();
+
+        $query = $this->db->table('rooms')
+            ->where('id', $id)
+            ->delete();
+
+        if ($query) {
+            echo json_encode(array(
+                'status' => 'success',
+                'message' => 'Xóa thành công'
+            ));
+        } else {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Xóa thất bại'
+            ));
+        }
+    }
+
+    // Cập nhật thông tin phòng
+    public function updateRoom($id, $name, $size, $rentCost)
+    {
+        // Check room id
+        $query = $this->db->table('rooms')
+            ->where('id', $id)
+            ->get()
+            ->getResultArray();
+        if (count($query) == 0) {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Phòng không tồn tại'
+            ));
+            return;
+        }
+
+        $query = $this->db->table('rooms')
+            ->where('id', $id)
+            ->update(array(
+                'name' => $name,
+                'size' => $size,
+                'rentCost' => $rentCost,
+            ));
+
+        if ($query) {
+            echo json_encode(array(
+                'status' => 'success',
+                'message' => 'Cập nhật thành công'
+            ));
+        } else {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Cập nhật thất bại'
+            ));
+        }
+    }
+
+    // Thêm phòng và trả về id mới thêm
+    public function addRoom($name, $size, $rentCost)
+    {
+        $query = $this->db->table('rooms')
+            ->insert(array(
+                'name' => $name,
+                'size' => $size,
+                'rentCost' => $rentCost,
+            ));
+        if ($query) {
+            echo json_encode(array(
+                'status' => 'success',
+                'message' => 'Thêm thành công',
+                'id' => $this->db->insertID()
+            ));
+        } else {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'Thêm thất bại'
+            ));
+        }
     }
 }

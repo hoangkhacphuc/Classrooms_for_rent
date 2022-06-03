@@ -33,8 +33,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
     <!-- Plugin SweetAlert -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- Customer -->
     <link rel="stylesheet" href="./Assets/CSS/layout.css">
@@ -54,7 +53,7 @@
             <?php else: ?>
                 <a href="./admin">Thống kê</a>
                 <a href="./">QL Tài khoản</a>
-                <a href="./">QL Phòng</a>
+                <a href="./admin/rooms">QL Phòng</a>
             <?php endif; ?>
         </div>
         <div class="item">
