@@ -37,7 +37,9 @@ $routes->get('logout', 'UserController::logout');
 $routes->get('rent', 'RoomController::index');
 $routes->get('pay', 'HomeController::Pay_Page');
 
-
+$routes->group('admin', function($routes) {
+    $routes->get('/', 'UserController::Statistical_Page');
+});
 
 $routes->group('api', function($routes) {
     $routes->post('login', 'UserController::login');

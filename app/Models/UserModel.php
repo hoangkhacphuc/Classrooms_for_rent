@@ -53,4 +53,44 @@ class UserModel extends HomeModel
         }
         echo json_encode(array('status' => 'error', 'message' => 'Cập nhật thất bại'));
     }
+
+    // kiểm tra quyền Admin
+    public function isAdmin()
+    {
+        $query = $this->db->table('customers')
+                            ->where(array('id' => $this->session->get('User_ID')))
+                            ->get()
+                            ->getResultArray();
+        if ($query[0]['role_id'] == 1) {
+            return true;
+        }
+        return false;
+    }
+
+    // Số thành viên tham gia tuần này
+    public function getAmountUserJoinThisWeek()
+    {
+        // begin of the week
+        $start_week = date('Y-m-d', strtotime('monday this week'));
+        // end of the week
+        $end_week = date('Y-m-d', strtotime('sunday this week'));
+        $query = $this->db->table('customers')
+                            ->select('COUNT(*) as count')
+                            ->where(array('customers.created >=' => $start_week,
+                                         'customers.created <=' => $end_week))
+                            ->get()
+                            ->getResultArray();
+        return $query[0]['count'];
+    }
+
+    // Lấy tổng số thành viên
+    public function getTotalUser()
+    {
+        $query = $this->db->table('customers')
+                            ->select('COUNT(*) as count')
+                            ->get()
+                            ->getResultArray();
+        return $query[0]['count'];
+    }
+    
 }

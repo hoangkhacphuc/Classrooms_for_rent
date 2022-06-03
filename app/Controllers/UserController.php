@@ -26,6 +26,39 @@ class UserController extends HomeController
         $this->userModel->login($username, $password);
     }
 
+    public function Statistical_Page()
+    {
+        $isLogin = $this->checkLogin();
+        if (!$isLogin) {
+            return redirect()->to(site_url('./login'));
+        }
+        $isAdmin = $this->userModel->isAdmin();
+        if (!$isAdmin) {
+            return redirect()->to(site_url('/'));
+        }
+        $header = view('Layouts/_header', array(
+            'isLogin' => $isLogin,
+            'isAdmin' => $isAdmin,
+            'Page_Title' => 'Thống kê',
+            'revenueToday' => $this->roomModel->getRevenueToday(),
+            'revenueMonth' => $this->roomModel->getRevenueMonth(),
+            'listRoom' => $this->roomModel->getListRoom(),
+            'getAmountUserJoinThisWeek' => $this->userModel->getAmountUserJoinThisWeek(),
+            'getTotalUser' => $this->userModel->getTotalUser(),
+            'getStatisticRoom' => $this->roomModel->getStatisticRoom(),
+            'Page_Resource' => array(
+                '<link rel="stylesheet" href="./Assets/CSS/statistical.css">',
+            )
+        ));
+        $footer = view('Layouts/_footer');
+        $data = array(
+            'header' => $header,
+            'footer' => $footer,
+            'profile' => $this->userModel->getProfile()
+        );
+        return view('Admin/statistical', $data);
+    }
+
     // Controller đăng xuất
     public function logout()
     {

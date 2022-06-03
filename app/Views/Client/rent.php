@@ -11,6 +11,7 @@
                         <thead>
                             <tr>
                                 <th>Tên phòng</th>
+                                <th>Số ghế</th>
                                 <th>Bắt đầu</th>
                                 <th>Kết thúc</th>
                                 <th>Ngày sử dụng</th>
@@ -23,6 +24,7 @@
                             <?php foreach ($rooms_rent as $room) { ?>
                                 <tr>
                                     <td><?= $room['name'] ?></td>
+                                    <td><?= $room['size'] ?></td>
                                     <td><?= $room['start'] ?></td>
                                     <td><?= $room['end'] ?></td>
                                     <td><?= $room['date_hire'] ?></td>
@@ -52,7 +54,7 @@
                         <label for="room">Chọn phòng</label>
                         <select class="form-control" id="room_rent">
                             <?php foreach ($rooms as $room) { ?>
-                                <option value="<?= $room['id'] ?>"><?= $room['name'] ?></option>
+                                <option value="<?= $room['id'] ?>"><?= $room['name'] . '  [ ' . $room['size'] . ' ghế ]' ?></option>
                             <?php } ?>
                         </select>
                     </div>

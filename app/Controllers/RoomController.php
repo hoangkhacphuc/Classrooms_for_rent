@@ -12,6 +12,10 @@ class RoomController extends HomeController
     // Controller for room
     public function index()
     {
+        $isAdmin = $this->userModel->isAdmin();
+        if ($isAdmin) {
+            return redirect()->to(site_url('/'));
+        }
         $isLogin = $this->checkLogin();
         if (!$isLogin) {
             return redirect()->to(site_url('./login'));

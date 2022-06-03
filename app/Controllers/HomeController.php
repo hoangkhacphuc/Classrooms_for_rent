@@ -22,12 +22,14 @@ class HomeController extends BaseController
 
     public function index()
     {
+        $isAdmin = $this->userModel->isAdmin();
         $isLogin = $this->checkLogin();
         if (!$isLogin) {
             return redirect()->to(site_url('./login'));
         }
         $header = view('Layouts/_header', array(
             'isLogin' => $isLogin,
+            'isAdmin' => $isAdmin,
             'Page_Title' => 'Trang Chủ',
             'Page_Resource' => array(
                 '<link rel="stylesheet" href="./Assets/CSS/index.css">',

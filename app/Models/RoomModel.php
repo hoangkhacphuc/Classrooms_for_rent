@@ -111,4 +111,67 @@ class RoomModel extends HomeModel
             'message' => 'Thuê phòng thành công'
         ));
     }
+
+    // Doanh thu hôm nay
+    public function getRevenueToday()
+    {
+        $query = $this->db->table('managements')
+            ->select('*, managements.id as id_management')
+            ->where('managements.date_hire', date('Y-m-d'))
+            ->join('rooms', 'rooms.id = managements.room_id')
+            ->join('shifts', 'shifts.id = managements.shift_id')
+            ->get()
+            ->getResultArray();
+        return $query;
+    }
+
+    // Doanh thu tháng này
+    public function getRevenueMonth()
+    {
+        $query = $this->db->table('managements')
+            ->select('*, managements.id as id_management')
+            ->where(array(
+                'YEAR(managements.date_hire)' => date('Y'),
+                'MONTH(managements.date_hire)' => date('m')
+            ))
+            ->join('rooms', 'rooms.id = managements.room_id')
+            ->join('shifts', 'shifts.id = managements.shift_id')
+            ->get()
+            ->getResultArray();
+        return $query;
+    }
+
+    // Doanh thu của phòng
+    public function getRevenueRoom($room_id)
+    {
+        $query = $this->db->table('managements')
+            ->select('*, managements.id as id_management')
+            ->where(array(
+                'room_id' => $room_id,
+            ))
+            ->join('rooms', 'rooms.id = managements.room_id')
+            ->join('shifts', 'shifts.id = managements.shift_id')
+            ->get()
+            ->getResultArray();
+        return $query;
+    }
+
+    // Thống kê phòng
+    public function getStatisticRoom()
+    {
+        $query = $this->db->table('rooms')
+            ->select('*')
+            ->get()
+            ->getResultArray();
+        $new = array();
+        for ($i=0; $i < count($query); $i++) { 
+            $revenue = $this->getRevenueRoom($query[$i]['id']);
+            array_push($new, array(
+                'name' => $query[$i]['name'],
+                'amount_shift' => count($revenue),
+                'revenue' => array_sum(array_column($revenue, 'rentCost'))
+            ));
+        }
+        return $new;
+    }
 }

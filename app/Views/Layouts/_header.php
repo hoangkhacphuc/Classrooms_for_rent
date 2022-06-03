@@ -48,8 +48,14 @@
     <header>
         <div class="item">
             <a href="./">Trang Chủ</a>
-            <a href="./rent">Thuê Phòng</a>
-            <a href="./pay">Thanh Toán</a>
+            <?php if (!isset($isAdmin) || (isset($isAdmin) && !$isAdmin)): ?>
+                <a href="./rent">Thuê Phòng</a>
+                <a href="./pay">Thanh Toán</a>
+            <?php else: ?>
+                <a href="./admin">Thống kê</a>
+                <a href="./">QL Tài khoản</a>
+                <a href="./">QL Phòng</a>
+            <?php endif; ?>
         </div>
         <div class="item">
             <?php if(!$isLogin): ?>
