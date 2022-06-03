@@ -48,8 +48,8 @@ $(document).ready(function () {
           }
           for (let i = 0; i < data.data.length; i++) {
             const item = data.data[i];
-            $("#shift_" + i).removeClass("btn-info");
-            $("#shift_" + i).attr("data-select", "-1");
+            $("#shift_" + item.shift_id).removeClass("btn-info");
+            $("#shift_" + item.shift_id).attr("data-select", "-1");
           }
 
           return;
@@ -72,7 +72,6 @@ $(document).ready(function () {
     }
   });
 
-  // click the button delete
   $("#t-room_rent>tr>td>button.btn-danger").click(function () {
     let id = $(this).attr("data-id");
     // post the value to ./api/deleteRoomRent
