@@ -1,0 +1,470 @@
+CRITICAL - 2022-06-03 11:08:30 --> Call to undefined method App\Models\UserModel::getListUserJoinThisWeek()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-03 11:13:50 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:50 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:50 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:51 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:51 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:51 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:52 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:52 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:52 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:53 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:53 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:53 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:54 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:54 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:54 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:55 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:55 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:55 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:55 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:56 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:56 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:56 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:57 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:57 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:57 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:58 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:58 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:58 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:58 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:59 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:59 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:13:59 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:14:00 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:14:00 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:14:00 --> Too few arguments to function App\Models\RoomModel::getRevenueRoom(), 0 passed in D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php on line 48 and exactly 1 expected
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(48): App\Models\RoomModel->getRevenueRoom()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Statistical_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 11:49:50 --> Invalid argument supplied for foreach()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Views\Admin\rooms.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Xampp\\htdocs...', 26, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/rooms', Array, true)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(180): view('Admin/rooms', Array)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\RoomController->Rooms_Manager_Page()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-03 11:51:22 --> syntax error, unexpected '?>', expecting '('
+#0 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/rooms', Array, true)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(180): view('Admin/rooms', Array)
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\RoomController->Rooms_Manager_Page()
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 11:53:33 --> syntax error, unexpected end of file
+#0 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/rooms', Array, true)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(180): view('Admin/rooms', Array)
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\RoomController->Rooms_Manager_Page()
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 11:53:35 --> syntax error, unexpected end of file
+#0 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/rooms', Array, true)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(180): view('Admin/rooms', Array)
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\RoomController->Rooms_Manager_Page()
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 11:53:44 --> syntax error, unexpected end of file
+#0 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/rooms', Array, true)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(180): view('Admin/rooms', Array)
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\RoomController->Rooms_Manager_Page()
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-03 13:32:58 --> Invalid argument supplied for foreach()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Views\Admin\accounts.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Xampp\\htdocs...', 96, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/accounts', Array, true)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(88): view('Admin/accounts', Array)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-03 13:48:21 --> Call to undefined function App\Controllers\changeDateFormatInListUser()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-03 13:48:27 --> Attempt to assign property 'birth' of non-object
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'D:\\Xampp\\htdocs...', 124, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-03 13:48:36 --> Attempt to assign property 'birth' of non-object
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'D:\\Xampp\\htdocs...', 124, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-03 13:49:05 --> Attempt to assign property 'birth' of non-object
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'D:\\Xampp\\htdocs...', 124, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-03 13:49:11 --> Attempt to assign property 'birth' of non-object
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'D:\\Xampp\\htdocs...', 124, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-03 13:49:18 --> Attempt to assign property 'birth' of non-object
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'D:\\Xampp\\htdocs...', 124, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-03 13:52:18 --> Call to undefined method App\Controllers\UserController::changeDateFormat()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 13:52:35 --> Call to undefined method App\Controllers\UserController::changeDateFormat()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(77): App\Controllers\UserController->changeDateFormatInListUser(Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-03 13:52:43 --> Invalid argument supplied for foreach()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Views\Admin\accounts.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Xampp\\htdocs...', 26, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/accounts', Array, true)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(89): view('Admin/accounts', Array)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-03 13:52:49 --> Invalid argument supplied for foreach()
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Views\Admin\accounts.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Xampp\\htdocs...', 26, Array)
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/accounts', Array, true)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(89): view('Admin/accounts', Array)
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->Accounts_Manager_Page()
+#6 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-03 14:43:15 --> Unknown column 'phone' in 'where clause'
+CRITICAL - 2022-06-03 14:43:15 --> Call to a member function getResultArray() on bool
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(89): App\Models\UserModel->register('user005', '123456', 'Nguy\xE1\xBB\x85n V\xC4\x83n Y', '0123123123', '2000-02-10', '1', '2')
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->register()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-03 14:43:44 --> Unknown column 'phone' in 'where clause'
+CRITICAL - 2022-06-03 14:43:44 --> Call to a member function getResultArray() on bool
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(89): App\Models\UserModel->register('user005', '123456', 'Nguy\xE1\xBB\x85n V\xC4\x83n Y', '0123123123', '2000-02-10', '1', '2')
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->register()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-03 14:44:07 --> Unknown column 'phone' in 'where clause'
+CRITICAL - 2022-06-03 14:44:07 --> Call to a member function getResultArray() on bool
+#0 D:\Xampp\htdocs\Classrooms_for_rent\app\Controllers\UserController.php(88): App\Models\UserModel->register('user005', '123456', 'Nguy\xE1\xBB\x85n V\xC4\x83n Y', '0123123123', '2000-02-10', '1', '2')
+#1 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->register()
+#2 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
