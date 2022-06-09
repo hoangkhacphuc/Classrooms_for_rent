@@ -22,11 +22,11 @@ class HomeController extends BaseController
 
     public function index()
     {
-        $isAdmin = $this->userModel->isAdmin();
         $isLogin = $this->checkLogin();
         if (!$isLogin) {
             return redirect()->to(site_url('./login'));
         }
+        $isAdmin = $this->userModel->isAdmin();
         $header = view('Layouts/_header', array(
             'isLogin' => $isLogin,
             'isAdmin' => $isAdmin,

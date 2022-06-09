@@ -1,0 +1,131 @@
+CRITICAL - 2022-06-09 17:57:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\Classrooms_for_rent\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-06-09 17:57:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\Classrooms_for_rent\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+ERROR - 2022-06-09 23:00:29 --> Error connecting to the database: Unknown database 'classrooms'
+CRITICAL - 2022-06-09 23:00:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'classrooms'
+#0 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#5 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-09 23:00:38 --> Error connecting to the database: Unknown database 'classrooms'
+CRITICAL - 2022-06-09 23:00:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'classrooms'
+#0 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#5 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-09 23:00:40 --> Error connecting to the database: Unknown database 'classrooms'
+CRITICAL - 2022-06-09 23:00:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'classrooms'
+#0 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#5 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-09 23:01:30 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:02:13 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:02:20 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:02:25 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:03:38 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:03:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:05:44 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:07:03 --> Undefined array key 0
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Models\UserModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(25): App\Models\UserModel->isAdmin()
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 23:10:13 --> Undefined array key "gender"
+#0 C:\xampp\htdocs\Classrooms_for_rent\app\Views\Client\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Client/index', Array, true)
+#4 C:\xampp\htdocs\Classrooms_for_rent\app\Controllers\HomeController.php(45): view('Client/index', Array)
+#5 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\HomeController->index()
+#6 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
