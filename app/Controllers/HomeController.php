@@ -67,6 +67,28 @@ class HomeController extends BaseController
         return view('Client/login', $data);
     }
 
+    public function Register_Page()
+    {
+        $isLogin = $this->checkLogin();
+        if ($isLogin) {
+            return redirect()->to(site_url('/'));
+        }
+        $header = view('Layouts/_header', array(
+            'isLogin' => $isLogin,
+            'Page_Title' => 'Đăng ký',
+            'Page_Resource' => array(
+                '<link rel="stylesheet" href="./Assets/CSS/login.css">',
+                '<script src="./Assets/Js/login.js"></script>'
+            )
+        ));
+        $footer = view('Layouts/_footer');
+        $data = array(
+            'header' => $header,
+            'footer' => $footer
+        );
+        return view('Client/register', $data);
+    }
+
     public function Pay_Page()
     {
         $isLogin = $this->checkLogin();

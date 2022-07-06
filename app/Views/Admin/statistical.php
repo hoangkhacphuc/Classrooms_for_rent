@@ -13,10 +13,10 @@
                 <div class="icon"><i class="fa fa-bar-chart"></i></div>
             </div>
             <div class="item">
-                <div class="desc">
+                <a href ="./admin/details" class="desc">
                     <div class="amount"><?= number_format(array_sum(array_column($revenueMonth, 'rentCost'))) ?> VNĐ</div>
                     <div class="title">Doanh thu tháng này</div>
-                </div>
+                </a>
                 <div class="icon"><i class="fa fa-bar-chart"></i></div>
             </div>
             <div class="item">

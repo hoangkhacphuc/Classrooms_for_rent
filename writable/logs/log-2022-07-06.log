@@ -1,0 +1,58 @@
+CRITICAL - 2022-07-06 00:36:29 --> Undefined variable $data
+#0 D:\xampp\htdocs\Classrooms_for_rent\app\Views\Admin\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 27)
+#1 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/detail', Array, true)
+#4 D:\xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(66): view('Admin/detail', Array)
+#5 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\RoomController->details()
+#6 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#7 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-06 00:37:30 --> Undefined variable $rooms
+#0 D:\xampp\htdocs\Classrooms_for_rent\app\Views\Admin\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 27)
+#1 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/detail', Array, true)
+#4 D:\xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(66): view('Admin/detail', Array)
+#5 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\RoomController->details()
+#6 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#7 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-06 00:37:32 --> Undefined variable $rooms
+#0 D:\xampp\htdocs\Classrooms_for_rent\app\Views\Admin\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 26)
+#1 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/detail', Array, true)
+#4 D:\xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(66): view('Admin/detail', Array)
+#5 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\RoomController->details()
+#6 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#7 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-06 00:38:25 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/detail', Array, true)
+#3 D:\xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(66): view('Admin/detail', Array)
+#4 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\RoomController->details()
+#5 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#6 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-06 00:38:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/detail', Array, true)
+#3 D:\xampp\htdocs\Classrooms_for_rent\app\Controllers\RoomController.php(66): view('Admin/detail', Array)
+#4 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(833): App\Controllers\RoomController->details()
+#5 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(420): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#6 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\CodeIgniter.php(327): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\Classrooms_for_rent\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\Classrooms_for_rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}

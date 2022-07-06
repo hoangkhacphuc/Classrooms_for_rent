@@ -70,6 +70,28 @@ class UserModel extends HomeModel
         echo json_encode(array('status' => 'error', 'message' => 'Đăng ký thất bại'));
     }
 
+    // Đăng ký tài khoản => customer
+    public function registerCustomer($username, $password)
+    {
+        $query = $this->db->table('customers')
+                            ->where(array('user' => $username))
+                            ->get()
+                            ->getResultArray();
+        if (count($query) > 0) {
+            echo json_encode(array('status' => 'error', 'message' => 'Tài khoản đã tồn tại'));
+            return;
+        }
+        $query = $this->db->table('customers')
+                            ->insert(array(
+                                'user' => $username,
+                                'pass' => $password
+                            ));
+        if ($query) {
+            echo json_encode(array('status' => 'success', 'message' => 'Đăng ký thành công'));
+            return;
+        }
+    }
+
     // Đăng xuất
     public function logout()
     {

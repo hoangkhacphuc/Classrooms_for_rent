@@ -270,4 +270,20 @@ class RoomModel extends HomeModel
             ));
         }
     }
+
+    // lấy danh sách lịch sử thuê phòng trong tháng này
+    public function getHistoryRoom()
+    {
+        $query = $this->db->table('managements')
+            ->select('*, customers.name, rooms.name as room_name, rooms.size')
+            ->where(array(
+                'YEAR(managements.date_hire)' => date('Y'),
+                'MONTH(managements.date_hire)' => date('m')
+            ))
+            ->join('rooms', 'rooms.id = managements.room_id')
+            ->join('customers', 'customers.id = managements.customer_id')
+            ->get()
+            ->getResultArray();
+        return $query;
+    }
 }

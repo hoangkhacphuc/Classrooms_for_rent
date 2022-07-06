@@ -40,6 +40,33 @@ class RoomController extends HomeController
         return view('Client/rent', $data);
     }
 
+    public function details()
+    {
+        $isLogin = $this->checkLogin();
+        if (!$isLogin) {
+            return redirect()->to(site_url('./login'));
+        }
+        $isAdmin = $this->userModel->isAdmin();
+        if (!$isAdmin) {
+            return redirect()->to(site_url('/'));
+        }
+        $header = view('Layouts/_header', array(
+            'isLogin' => $isLogin,
+            'Page_Title' => 'Doanh thu tháng này',
+            'Page_Resource' => array(
+                '<link rel="stylesheet" href="./Assets/CSS/detail.css">',
+                '<script src="./Assets/Js/rent.js"></script>'
+            )
+        ));
+        $footer = view('Layouts/_footer');
+        $data = array(
+            'header' => $header,
+            'footer' => $footer,
+            'rooms' => $this->roomModel->getHistoryRoom(),
+        );
+        return view('Admin/detail', $data);
+    }
+
     // Controller xóa phòng đã đặt thuê
     public function deleteRoomRent()
     {

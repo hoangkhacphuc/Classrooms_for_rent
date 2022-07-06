@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'HomeController::index');
 $routes->get('login', 'HomeController::Login_Page');
+$routes->get('register', 'HomeController::Register_Page');
 $routes->get('logout', 'UserController::logout');
 $routes->get('rent', 'RoomController::index');
 $routes->get('pay', 'HomeController::Pay_Page');
@@ -40,6 +41,7 @@ $routes->get('pay', 'HomeController::Pay_Page');
 $routes->group('admin', function($routes) {
     $routes->get('/', 'UserController::Statistical_Page');
     $routes->get('rooms', 'RoomController::Rooms_Manager_Page');
+    $routes->get('details', 'RoomController::details');
     $routes->get('accounts', 'UserController::Accounts_Manager_Page');
     $routes->group('api', function($routes) {
         $routes->post('deleteRoom', 'RoomController::deleteRoom');
@@ -56,6 +58,7 @@ $routes->group('api', function($routes) {
     $routes->post('getListShiftRent', 'ShiftController::getListShiftRent');
     $routes->post('deleteRoomRent', 'RoomController::deleteRoomRent');
     $routes->post('rentRoom', 'RoomController::rentRoom');
+    $routes->post('register', 'UserController::registerCustomer');
 
 });
 

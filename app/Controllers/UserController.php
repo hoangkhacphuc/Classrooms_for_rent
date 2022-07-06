@@ -88,6 +88,37 @@ class UserController extends HomeController
         $this->userModel->register($username, md5($password), $name, $phone, $birthday, $gender, $role);
     }
 
+    public function registerCustomer()
+    {
+        if ($this->checkLogin())
+        {
+            echo json_encode(array('status' => 'error', 'message' => 'Bạn đã đăng nhập từ trước'));
+            return;
+        }
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
+        $repassword = $this->request->getPost('repassword');
+
+        // check input is empty
+        if (empty($username) || empty($password) || empty($repassword))
+        {
+            echo json_encode(array('status' => 'error', 'message' => 'Thiếu thông tin'));
+            return; 
+        }
+
+        if ($this->checkInjection($username) || $this->checkInjection($password)) {
+            echo json_encode(array('status' => 'error', 'message' => 'Tài khoản hoặc mật khẩu không hợp lệ'));
+            return;
+        }
+        // check password
+        if ($password != $repassword)
+        {
+            echo json_encode(array('status' => 'error', 'message' => 'Mật khẩu không khớp'));
+            return;
+        }
+        $this->userModel->registerCustomer($username, md5($password));
+    }
+
     public function Statistical_Page()
     {
         $isLogin = $this->checkLogin();
